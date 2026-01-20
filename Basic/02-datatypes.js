@@ -27,12 +27,14 @@ let nullValue = null
 
 // Symbol
 
-let mySymbol = Symbol("mysymbol")
+let mySymbol = Symbol("mysymbol")   // Un valor único y inmutable
+let mySymbol2 = Symbol("mysymbol2");
 
 // BigInt
 
 let myBigInt = BigInt(817239871289371986589716389471628379612983761289376129)
-let myBigInt2 = 817239871289371986589716389471628379612983761289376129n
+let myBigInt3 = BigInt("123412341234123412341234123412341234123412341234")
+let myBigInt2n = 817239871289371986589716389471628379612983761289376129n
 
 // Mostramos los tipos de datos
 console.log(typeof myName)
@@ -53,3 +55,4 @@ console.log(typeof mySymbol)
 
 console.log(typeof myBigInt)
 console.log(typeof myBigInt2)
+console.log(typeof(myBigInt3));

@@ -30,7 +30,9 @@ myVariable += 2 // Suma con asignación
 console.log(myVariable)
 
 myVariable -= 2 // Resta con asignación
+console.log(myVariable)
 myVariable *= 2 // Multiplicación con asignación
+console.log(myVariable)
 myVariable /= 2 // División con asignación
 myVariable %= 2 // Módulo con asignación
 myVariable **= 2 // Exponente con asignación
